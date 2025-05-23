@@ -1,0 +1,143 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link rel="stylesheet" href="{% static 'home/css/ver_home.css' %}">
+
+    <title>AIDE</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="title">
+          <a href="home.html"
+            ><img src="componentes/images/aide-logo 1.png" alt="AIDE"
+          /></a>
+        </div>
+
+        <ul>
+          <a href="home.html" class="navigation" id="navigation"><li>HOME</li></a>
+          <a href="#" class="navigation" id="navigation"><li>TRANÇAS</li></a>
+          <a href="#" class="navigation" id="navigation"><li>UNHAS</li></a>
+          <a href="#" class="navigation" id="navigation"><li>SOBRE</li></a>
+          <a href="#" class="navigation" id="navigation"><li>CONTATO</li></a>
+        </ul>
+      </header>
+      <main>
+        <aside>
+          <h2><span>Venha Conhcer</span></h2>
+          <h2>Nosso Espaço!</h2>
+          <p>
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria
+            tipográfica e de impressos, e vem sendo utilizado desde o século
+            XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
+            os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
+            sobreviveu não só a cinco séculos, como também ao salto para a
+            editoração eletrônica, permanecendo essencialmente inalterado.
+          </p>
+          <form action="">
+            <input type="text" placeholder="Nome Completo" />
+            <input type="date" placeholder="Escolha a Data" />
+            <input type="tel" placeholder="Whats App" />
+            <input type="submit" placeholder="ENVIAR" />
+          </form>
+        </aside>
+
+        <article>
+          <img
+            id="logo-completa"
+            src="componentes/images/aide-complete-logo.png"
+            alt="aide-complete-logo"
+          />
+        </article>
+      </main>
+    </div>
+    <footer>
+      <div id="footer_content">
+        <div id="contacts">
+          <h1><img src="componentes/images/aide-logo 1.png" alt="Aide" id="logo-footer"></h1>
+          <p>It's all about your dreams</p>
+          <div id="footer_social_media">
+            <a href="#" class="footer_link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="footer_link" id="facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="footer_link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <ul class="footer_list" id="footer_list">
+          <li>
+            <h3>BLOG</h3>
+          </li>
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="trancas.html">Tranças</a>
+          </li>
+          <li>
+            <a href="unhas.html">Unhas</a>
+          </li>
+          <li>
+            <a href="sobre.html">Sobre</a>
+          </li>
+          <li>
+            <a href="contato.html">Contato</a>
+          </li>
+        </ul>
+        <ul class="footer_list" id="footer_list">
+          <li>
+            <h3>Products</h3>
+          </li>
+          <li>
+            <a href="home.html">Boxeadora</a>
+          </li>
+          <li>
+            <a href="home.html">Twist</a>
+          </li>
+          <li>
+            <a href="home.html">Nagô</a>
+          </li>
+          <li>
+            <a href="home.html">Butterfly</a>
+          </li>
+          <li>
+            <a href="home.html">Locs</a>
+          </li>
+        </ul>
+
+        <div id="footer_subscribe">
+          <h3>Subscribe</h3>
+          <p>Para negócios e parcerias entre em contato via e-mail.</p>
+            <div id="input_grup">
+          <input type="email" id="email" />
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+        </div>
+      </div>
+      <div id="footer_copyright">
+        &#169
+        2025 all rights reserve
+      </div>
+    </footer>
+  </body>
+</html>

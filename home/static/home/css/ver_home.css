@@ -1,0 +1,239 @@
+:root {
+    --color-natural-0: #0e0c0c;
+    --color-natural-10: #171717;
+    --color-natural-30: #a8a29e;
+    --color-natural-40: #f5f5f5;
+    --color-natural-yellw-aide: #f9a537;
+
+}
+
+body {
+    background-color: white;
+    color: var(--color-natural-0);
+    font-family: poppinsregular;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#title {
+    flex-direction: column;
+}
+
+li {
+    display: inline-block;
+    margin: 15px;
+}
+
+a {
+    color: var(--color-natural-yellw-aide);
+}
+
+a:hover {
+    color: var(--color-natural-40);
+    transition: 0.3s, all;
+
+}
+
+#navigation {
+    border: 1px, solid, var(--color-natural-yellw-aide);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#navigation:hover {
+    background-color: var(--color-natural-yellw-aide);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 5px;
+    font-family: poppinssemibold;
+}
+
+span {
+    color: var(--color-natural-yellw-aide);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    background-color: var(--color-natural-yellw-aide);
+    color: var(--color-natural-40);
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 50%;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s, all;
+}
+
+input {
+    background-color: var(--color-natural-40);
+    color: var(--color-natural-0);
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+#logo-completa {
+    width: 700px;
+}
+
+footer {
+    color: var(--color-natural-40);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.footer_link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-natural-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#logo-footer {
+    max-width: 180px;
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer_link {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-natural-40);
+    border-radius: 50%;
+}
+
+#footer_social_media .footer_link i {
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer_link:hover {
+    opacity: 0.8;
+    transition: 0.3s, all;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer_list a {
+    text-decoration: none;
+}
+
+#footer_subscribe {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe a {
+    color: var(--color-natural-10);
+}
+
+#input_grup {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-natural-0);
+    border-radius: 4px;
+}
+
+#input_grup input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_grup button {
+    background-color: var(--color-natural-yellw-aide);
+    border: none;
+    color: var(--color-natural-40);
+    padding: 0px 1.25em;
+    font-size: 1.25rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+
+}
+
+#input_grup button:hover {
+    opacity: 0.8;
+    transition: 0.3s, all;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-natural-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
